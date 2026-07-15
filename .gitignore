@@ -1,0 +1,31 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# Unity Build Outputs
+*.apk
+*.app
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# IDE
+.utmp/
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Visual Studio / Rider
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.unityproj
