@@ -63,6 +63,9 @@ public class Slot : MonoBehaviour
         if (isOccupied)
             return;
 
+        if (TurnManager.Instance != null && !TurnManager.Instance.CanPlayCard)
+            return;
+
         if (!other.CompareTag("Card"))
             return;
 
