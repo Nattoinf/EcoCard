@@ -18,7 +18,7 @@ public class TurnManager : MonoBehaviour
     [SerializeField] private float eventDisplayDuration = 2.0f;
 
     private bool isEventPhase = false;
-    private string lastEventMessage = "準備中";
+    private string lastEventMessage = "<color=#AAAAAA>[Waiting for Card]</color>";
     private bool isProcessingTurn = false;
 
     // プロパティ
@@ -43,7 +43,7 @@ public class TurnManager : MonoBehaviour
             return;
         }
 
-        lastEventMessage = "イベント待機中";
+        lastEventMessage = "<color=#AAAAAA>[Waiting for Card]</color>";
     }
 
     // カードが1枚使われたときに呼ぶ
@@ -76,12 +76,13 @@ public class TurnManager : MonoBehaviour
         bool eventOccurred = Random.value < eventProbability;
         if (eventOccurred)
         {
-            lastEventMessage = "【イベント発生】ランダムイベントが発生しました！";
+            // Unity標準フォント(LiberationSans)でも文字化けしないよう英字＆カラータグで表示
+            lastEventMessage = "<color=#FFCC00><b>★ EVENT OCCURRED!</b></color>";
             Debug.Log($"<color=yellow>[Event Phase] イベントが発生しました！ (Turn {currentTurn})</color>");
         }
         else
         {
-            lastEventMessage = "【イベントなし】平穏なターンでした。";
+            lastEventMessage = "<color=#88FF88><b>- No Event (Peaceful) -</b></color>";
             Debug.Log($"<color=cyan>[Event Phase] イベントは発生しませんでした。 (Turn {currentTurn})</color>");
         }
 
