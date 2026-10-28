@@ -7,7 +7,7 @@ public class Slot : MonoBehaviour
     [Header("Snap")]
     public Transform snapPoint;
     public Transform spawnPoint;
-    public float snapDistance = 0.5f;
+    public float snapDistance = 0.35f;
 
     [Header("Highlight")]
     public Renderer slotRenderer;
@@ -152,5 +152,14 @@ public class Slot : MonoBehaviour
     public void ClearSlot()
     {
         isOccupied = false;
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (snapPoint != null)
+        {
+            Gizmos.color = Color.cyan;
+            Gizmos.DrawWireSphere(snapPoint.position, snapDistance);
+        }
     }
 }

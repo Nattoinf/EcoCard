@@ -524,8 +524,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2, y: 50, z: 1.2}
+  m_Center: {x: 0, y: 25, z: 0}
 --- !u!23 &197458175
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -597,7 +597,7 @@ MonoBehaviour:
   slotType: 0
   snapPoint: {fileID: 197458173}
   spawnPoint: {fileID: 816716532}
-  snapDistance: 0.1
+  snapDistance: 0.35
   slotRenderer: {fileID: 197458175}
   normalColor: {r: 1, g: 0.3529412, b: 0.3529412, a: 1}
   highlightColor: {r: 1, g: 1, b: 0.3529412, a: 1}
@@ -1506,8 +1506,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2, y: 50, z: 1.2}
+  m_Center: {x: 0, y: 25, z: 0}
 --- !u!23 &595217188
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1579,7 +1579,7 @@ MonoBehaviour:
   slotType: 0
   snapPoint: {fileID: 595217186}
   spawnPoint: {fileID: 1559361152}
-  snapDistance: 0.1
+  snapDistance: 0.35
   slotRenderer: {fileID: 595217188}
   normalColor: {r: 1, g: 0.3529412, b: 0.3529412, a: 1}
   highlightColor: {r: 1, g: 1, b: 0.3529412, a: 1}
@@ -2903,8 +2903,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2, y: 50, z: 1.2}
+  m_Center: {x: 0, y: 25, z: 0}
 --- !u!23 &905937272
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2976,7 +2976,7 @@ MonoBehaviour:
   slotType: 0
   snapPoint: {fileID: 905937270}
   spawnPoint: {fileID: 1176216937}
-  snapDistance: 0.1
+  snapDistance: 0.35
   slotRenderer: {fileID: 905937272}
   normalColor: {r: 1, g: 0.3529412, b: 0.3529412, a: 1}
   highlightColor: {r: 1, g: 1, b: 0.3529412, a: 1}
@@ -3244,8 +3244,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2, y: 50, z: 1.2}
+  m_Center: {x: 0, y: 25, z: 0}
 --- !u!23 &1023911676
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3317,7 +3317,7 @@ MonoBehaviour:
   slotType: 0
   snapPoint: {fileID: 1023911674}
   spawnPoint: {fileID: 886522950}
-  snapDistance: 0.1
+  snapDistance: 0.35
   slotRenderer: {fileID: 1023911676}
   normalColor: {r: 1, g: 0.3529412, b: 0.3529412, a: 1}
   highlightColor: {r: 1, g: 1, b: 0.3529412, a: 1}
@@ -3375,8 +3375,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2, y: 50, z: 1.2}
+  m_Center: {x: 0, y: 25, z: 0}
 --- !u!23 &1026049342
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3448,7 +3448,7 @@ MonoBehaviour:
   slotType: 0
   snapPoint: {fileID: 1026049340}
   spawnPoint: {fileID: 879060245}
-  snapDistance: 0.1
+  snapDistance: 0.35
   slotRenderer: {fileID: 1026049342}
   normalColor: {r: 1, g: 0.3529412, b: 0.3529412, a: 1}
   highlightColor: {r: 1, g: 1, b: 0.3529412, a: 1}
@@ -3624,8 +3624,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2, y: 50, z: 1.2}
+  m_Center: {x: 0, y: 25, z: 0}
 --- !u!23 &1123626498
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3697,7 +3697,7 @@ MonoBehaviour:
   slotType: 1
   snapPoint: {fileID: 1123626496}
   spawnPoint: {fileID: 730192399}
-  snapDistance: 0.1
+  snapDistance: 0.35
   slotRenderer: {fileID: 1123626498}
   normalColor: {r: 0.3529412, g: 0.3529412, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.3529412, b: 0.3529412, a: 1}
@@ -4088,8 +4088,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2, y: 50, z: 1.2}
+  m_Center: {x: 0, y: 25, z: 0}
 --- !u!23 &1272167944
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4161,7 +4161,7 @@ MonoBehaviour:
   slotType: 0
   snapPoint: {fileID: 1272167942}
   spawnPoint: {fileID: 1780590150}
-  snapDistance: 0.1
+  snapDistance: 0.35
   slotRenderer: {fileID: 1272167944}
   normalColor: {r: 1, g: 0.3529412, b: 0.3529412, a: 1}
   highlightColor: {r: 1, g: 1, b: 0.3529412, a: 1}
@@ -5611,8 +5611,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2, y: 50, z: 1.2}
+  m_Center: {x: 0, y: 25, z: 0}
 --- !u!23 &1563515930
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5684,7 +5684,7 @@ MonoBehaviour:
   slotType: 0
   snapPoint: {fileID: 1563515928}
   spawnPoint: {fileID: 1473941806}
-  snapDistance: 0.1
+  snapDistance: 0.35
   slotRenderer: {fileID: 1563515930}
   normalColor: {r: 1, g: 0.3529412, b: 0.3529412, a: 1}
   highlightColor: {r: 1, g: 1, b: 0.3529412, a: 1}
@@ -5742,8 +5742,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2, y: 50, z: 1.2}
+  m_Center: {x: 0, y: 25, z: 0}
 --- !u!23 &1568737577
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5815,7 +5815,7 @@ MonoBehaviour:
   slotType: 0
   snapPoint: {fileID: 1568737575}
   spawnPoint: {fileID: 1495339776}
-  snapDistance: 0.1
+  snapDistance: 0.35
   slotRenderer: {fileID: 1568737577}
   normalColor: {r: 1, g: 0.3529412, b: 0.3529412, a: 1}
   highlightColor: {r: 1, g: 1, b: 0.3529412, a: 1}
@@ -7252,6 +7252,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2080830206}
   - component: {fileID: 2080830207}
+  - component: {fileID: 2080830208}
   m_Layer: 0
   m_Name: HandBinder
   m_TagString: Untagged
@@ -7268,7 +7269,7 @@ Transform:
   m_GameObject: {fileID: 2080830205}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.03, z: 0.18}
+  m_LocalPosition: {x: 0.35, y: 0.8, z: 0.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7277,7 +7278,7 @@ Transform:
   - {fileID: 1531269733}
   - {fileID: 1256784334}
   - {fileID: 1470856905}
-  m_Father: {fileID: 470082411}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2080830207
 MonoBehaviour:
@@ -7297,6 +7298,25 @@ MonoBehaviour:
   - {fileID: 1531269733}
   - {fileID: 1256784334}
   - {fileID: 1470856905}
+--- !u!114 &2080830208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080830205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a8b9c0d1e2f3456789abcdef0123456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BinderFollower
+  targetCamera: {fileID: 9014170783777442264}
+  followMode: 0
+  offset: {x: 0.28, y: -0.18, z: 0.45}
+  rotationOffset: {x: 15, y: -15, z: 0}
+  instantFollow: 1
+  smoothSpeed: 25
+  attachDirectlyToCamera: 0
 --- !u!1 &2084330964
 GameObject:
   m_ObjectHideFlags: 0
@@ -8173,9 +8193,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1767192434, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 903251090}
-    - targetCorrespondingSourceObject: {fileID: 1670256625, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2080830206}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1767192433, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       insertIndex: -1

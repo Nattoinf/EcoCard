@@ -34,20 +34,18 @@ public class TurnManager : MonoBehaviour
             return;
         }
 
+        Debug.Log($"Turn {currentTurn}/{maxTurns} Card Played");
 
-
-        Debug.Log($"Turn {currentTurn}/{maxTurns}");
-
-        // ゲージとターンの終了条件をまとめて確認
+        // 最大ターン（10ターン目）のカードをプレイし終えたらゲームクリア判定
         if (currentTurn >= maxTurns)
         {
-            GameManager.Instance.CheckGameState();
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.CheckGameClear();
+            }
             return;
         }
-        else
-        {
-            Debug.LogWarning("GameManager.Instance が設定されていません");
-        }
+
         currentTurn++;
     }
 }

@@ -31,12 +31,18 @@ public class GameManager : MonoBehaviour
             gameClearPanel.SetActive(false);
     }
 
+    // ゲージ変更時に呼ぶ（ゲームオーバー判定のみ）
     public void CheckGameState()
+    {
+        CheckGameOver();
+    }
+
+    // ゲージが1つでも0以下ならゲームオーバー
+    public void CheckGameOver()
     {
         if (gameEnded)
             return;
 
-        // ゲージが1つでも0以下ならゲームオーバー
         if (GaugeManager.Instance != null)
         {
             foreach (var gauge in GaugeManager.Instance.Gauges)
@@ -48,14 +54,19 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
+    }
 
-        // 最大ターンまで到達し、ゲージが残っていればゲームクリア
-        if (TurnManager.Instance != null &&
-            TurnManager.Instance.CurrentTurn >=
-            TurnManager.Instance.MaxTurns)
-        {
-            GameClear();
-        }
+    // 最大ターン終了時に呼ぶ（カード使用後のゲームクリア判定）
+    public void CheckGameClear()
+    {
+        if (gameEnded)
+            return;
+
+        CheckGameOver();
+        if (gameEnded)
+            return;
+
+        GameClear();
     }
 
     private void GameOver(GaugeType depletedGauge)

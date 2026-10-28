@@ -49,6 +49,14 @@ public class CardFollowAndGrab : MonoBehaviour
         grab.selectExited.AddListener(OnRelease);
     }
 
+    void Start()
+    {
+        if (playerCamera == null && Camera.main != null)
+        {
+            playerCamera = Camera.main.transform;
+        }
+    }
+
     void Update()
     {
 
